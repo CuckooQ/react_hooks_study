@@ -1,7 +1,7 @@
 import './App.css';
 import { useState } from 'react';
 
-function App() {
+const App = () => {
   const [item, setItem] = useState(0);
   const increase = () => {
     setItem(item + 1);
