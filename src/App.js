@@ -1,23 +1,19 @@
-import logo from './logo.svg';
 import './App.css';
+import { useState } from 'react';
 
 function App() {
+  const [item, setItem] = useState(0);
+  const increase = () => {
+    setItem(item + 1);
+  }
+  const decrease = () => {
+    setItem(item - 1);
+  }
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <div>{item}</div>
+      <button id= "increase" onClick={increase}>+</button>
+      <button id= "decrease" onClick={decrease}>-</button>
     </div>
   );
 }
