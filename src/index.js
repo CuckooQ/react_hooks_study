@@ -1,13 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import Sample1 from './sample1';
-import Sample2 from './sample2';
+import UseStateSample from './useStateSample';
+import UseInputSample from './useInputSample';
+import UseTabsSample from './useTabsSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Sample2 />
+    <UseTabsSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
