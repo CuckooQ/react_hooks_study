@@ -9,6 +9,7 @@ const App = () => {
   const decrease = () => {
     setItem(item - 1);
   }
+  
   return (
     <div className="App">
       <div>{item}</div>

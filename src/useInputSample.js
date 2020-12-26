@@ -19,6 +19,7 @@ const useInput = (initValue, validator) => {
 const App = () => {
   const validateNameMaxLen = name => name.length <= 10;
   const [name, changeName] = useInput("", validateNameMaxLen);
+  
   return (
     <div className="App">
       <div>{name}</div>
