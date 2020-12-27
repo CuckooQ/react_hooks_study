@@ -8,11 +8,12 @@ import UseEffectSample from './useEffectSample';
 import UseTitleSample from './useTitleSample';
 import UseClickSample from './useClickSample';
 import UseConfirmSample from './useConfirmSample';
+import UsePreventLeaveSample from './usePreventLeaveSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseConfirmSample />
+    <UsePreventLeaveSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
