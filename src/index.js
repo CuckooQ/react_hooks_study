@@ -7,11 +7,12 @@ import UseTabsSample from './useTabsSample';
 import UseEffectSample from './useEffectSample';
 import UseTitleSample from './useTitleSample';
 import UseClickSample from './useClickSample';
+import UseConfirmSample from './useConfirmSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseClickSample />
+    <UseConfirmSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
