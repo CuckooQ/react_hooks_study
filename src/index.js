@@ -5,12 +5,13 @@ import UseStateSample from './useStateSample';
 import UseInputSample from './useInputSample';
 import UseTabsSample from './useTabsSample';
 import UseEffectSample from './useEffectSample';
-import UserTitleSample from './useTitleSample';
+import UseTitleSample from './useTitleSample';
+import UseClickSample from './useClickSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UserTitleSample />
+    <UseClickSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
