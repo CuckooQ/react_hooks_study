@@ -4,11 +4,12 @@ import './index.css';
 import UseStateSample from './useStateSample';
 import UseInputSample from './useInputSample';
 import UseTabsSample from './useTabsSample';
+import UseEffectSample from './useEffectSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseTabsSample />
+    <UseEffectSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
