@@ -11,11 +11,12 @@ import UseConfirmSample from './useConfirmSample';
 import UsePreventLeaveSample from './usePreventLeaveSample';
 import UsePageLeaveSample from './usePageLeaveSample';
 import UseFadeInSample from './useFadeInSample';
+import UseNetworkSample from './useNetworkSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseFadeInSample />
+    <UseNetworkSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
