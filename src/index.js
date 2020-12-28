@@ -9,11 +9,12 @@ import UseTitleSample from './useTitleSample';
 import UseClickSample from './useClickSample';
 import UseConfirmSample from './useConfirmSample';
 import UsePreventLeaveSample from './usePreventLeaveSample';
+import UsePageLeaveSample from './usePageLeaveSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UsePreventLeaveSample />
+    <UsePageLeaveSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
