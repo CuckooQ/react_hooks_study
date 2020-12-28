@@ -12,11 +12,13 @@ import UsePreventLeaveSample from './usePreventLeaveSample';
 import UsePageLeaveSample from './usePageLeaveSample';
 import UseFadeInSample from './useFadeInSample';
 import UseNetworkSample from './useNetworkSample';
+import UseScrollSample from './useScrollSample';
+import UseFullScreenSample from './useFullScreenSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseNetworkSample />
+    <UseFullScreenSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
