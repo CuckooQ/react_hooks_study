@@ -14,11 +14,12 @@ import UseFadeInSample from './useFadeInSample';
 import UseNetworkSample from './useNetworkSample';
 import UseScrollSample from './useScrollSample';
 import UseFullScreenSample from './useFullScreenSample';
+import UseNotificationSample from './useNotificationSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseFullScreenSample />
+    <UseNotificationSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
