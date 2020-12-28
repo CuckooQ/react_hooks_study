@@ -15,11 +15,12 @@ import UseNetworkSample from './useNetworkSample';
 import UseScrollSample from './useScrollSample';
 import UseFullScreenSample from './useFullScreenSample';
 import UseNotificationSample from './useNotificationSample';
+import UseAxiosSample from './useAxiosSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UseNotificationSample />
+    <UseAxiosSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
