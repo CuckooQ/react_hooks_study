@@ -10,11 +10,12 @@ import UseClickSample from './useClickSample';
 import UseConfirmSample from './useConfirmSample';
 import UsePreventLeaveSample from './usePreventLeaveSample';
 import UsePageLeaveSample from './usePageLeaveSample';
+import UseFadeInSample from './useFadeInSample';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <UsePageLeaveSample />
+    <UseFadeInSample />
   </React.StrictMode>,
   document.getElementById('root')
 );
